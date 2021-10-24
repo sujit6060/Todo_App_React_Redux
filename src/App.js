@@ -10,13 +10,11 @@ function App() {
       <Route exact path="/">
         <Login />
       </Route>
-      <div className="App">
-        <Switch>
-          <Route path="/todo">
-            <Todo />
-          </Route>
-        </Switch>
-      </div>
+      <Switch>
+        <Route path="/todo">
+          <Todo />
+        </Route>
+      </Switch>
     </Router>
   );
 }
