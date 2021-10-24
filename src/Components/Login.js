@@ -23,10 +23,12 @@ const Login = () => {
   return (
     <>
       <br></br>
+      <br></br>
+      <br></br>
       <div
         className="container"
         style={{
-          width: "350px",
+          width: "375px",
           border: "2px solid black",
           padding: "30px",
           backgroundColor: "black",
@@ -70,12 +72,8 @@ const Login = () => {
           </Form.Field>
 
           <br></br>
-          <Button
-            type="submit"
-            secondary
-            onClick={getData}
-            style={{ color: "white" }}
-          >
+          <br></br>
+          <Button type="submit" onClick={getData} style={{ color: "black" }}>
             Submit
           </Button>
         </Form>
